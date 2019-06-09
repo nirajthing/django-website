@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+.shit{
+  margin:0px ;
+  color: brown;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+h1{
+  color: antiquewhite;
+  font-family:  HOMINA regular;
+  font-size: 100px;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+h2{
+  color:white;
+}
+
+p{
+  color: white;
+}
+
+.navbar ul li a
+{
+    margin-left: 30px;
+    color:#472f2f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 3px 0;
+    font-weight: 600;
+    letter-spacing: .2rem;
+           
+}
+
+.navbar-brand
+{
+    font-size: 35px !important;
+    font-family: 'Righteous', cursive;
+    color: red;
+   
+}
+
+.navbar ul li a:hover
+{
+    border-bottom: 2px solid #5ae03f;   
+}
+
+
+  .navbar{
+    background-color: rgb(150, 151, 151);
+    position: sticky;
+    top: 0px;
+  
+  }
+ 
+
+img{
+    margin-left: 28%;
+    display: inline;
+    display: block;
+    
+  }
+
+body{
+  
+  background-size: 80%;
+  margin-left: 0px;
+  padding-left: 0px;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.forbgimg{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('img4.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
